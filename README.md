@@ -1,2 +1,2 @@
 # 2020XXX 	 Jeong Uk Lee
-# Kookmin Univ. SW
+# Kookmin Univ. computer science
