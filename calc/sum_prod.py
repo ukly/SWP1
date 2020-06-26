@@ -9,7 +9,7 @@ def application(environ, start_response):
     if '' not in [a, b]:
         a, b = int(a), int(b)
         sum = a + b
-        product = a * b
+        prod = a * b
     response_body = html % {'sum':sum, 'prod':prod}
     start_response('200 OK', [
         ('Content-Type', 'text/html'),
