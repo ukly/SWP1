@@ -13,6 +13,6 @@ def application(environ, start_response):
     response_body = html % {'sum':sum, 'prod':prod}
     start_response('200 OK', [
         ('Content-Type', 'text/html'),
-       ('Content-Length', str(len(response_body)))
+        ('Content-Length', str(len(response_body)))
     ])
     return [response_body]
