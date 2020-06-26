@@ -1,21 +1,13 @@
 html = """
 <html>
     <body>
-        <form method="get" action="">
-            <p>
-                a:  <input type="number" name="a" value="%(a)d">
-            </p>
-            <p>
-                b:  <input type="number" name="b" value="%(b)d">
-            </p>
-            <p>
-                <input type="submit" value="Submit">
-            </p>
+        <form action="">
+                a:  <input type="number" name="a"><br><br>
+                b:  <input type="number" name="b">
+            <input type="submit">
         </form>
-        <p>
-            Sum: %(sum1)d</br>
-            Product: %(product1)d</br>
-        </p>
+        Sum = %(sum)d <br><br>
+        Prod =  %(prod)d
     </body>
 </html>
 """
